@@ -181,11 +181,12 @@ align-items: center;
             width: 264px;
             height: 112px;
             border: #0c0d1c;
-            border-radius: 4%;
-            
+            border-radius: 4px;
+            background-color: #f4f4fd;
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-bottom: 8px;
          }
     
          .main-strategy-list {
@@ -433,7 +434,7 @@ background-color: #404BBF;
             display: inline-block;
             margin-bottom: 16px;}
             .footer-container-icons {
-                
+
             }
             .media-title {
                 font-family: var(--font-family);
@@ -441,7 +442,9 @@ background-color: #404BBF;
                     font-size: 16px;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
-                    color: var(--white);
+                   color: #FFFFFF;
+                    margin-bottom: 16px;
+
             }
 
             .footer-icon-item {
@@ -452,7 +455,7 @@ background-color: #404BBF;
 
             }
             .footer-icon {
-                fill: #FFFFFF;
+                fill: #f4f4fd;
                 
             }
             .footer-icon-link {
@@ -463,6 +466,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 border-radius: 50%;
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
             }
             .footer-icon-list {
                 height: 40px;
@@ -471,4 +475,5 @@ border-radius: 50%;
             }
             .footer-icon-link:hover{background-color:#31D0AA;}
                         
-               
+.footer-icon-link:focus
+{background-color: #31d0aa;}
