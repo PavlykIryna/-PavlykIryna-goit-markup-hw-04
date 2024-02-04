@@ -34,6 +34,9 @@ img {
 .header {
         background: #FFF;
         border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
 display: flex;
@@ -61,19 +64,38 @@ align-items: center;
          .header-menu {
             display: flex;
             gap: 40px;
+            color: #404bbf;
+
          }
     
          .header-link-menu {
             color: #2E2F42;
-  
             font-size: 16px;
                 font-weight: 500;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
                 padding-top: 24px;
                 padding-bottom: 24px;
-                display: block;               
+                display: block;   
+        
          }
+                 .header-link-menu-studio {
+color: #404bbf; 
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+position: relative;
+                 }
+                         .header-link-menu-studio::after {
+                            content: "";
+                            width: 100%;
+                            position: absolute;
+                            left: 0;
+                            left: 0;
+                            height: 4px;
+                            background-color: #404bbf;
+                            border-radius: 2px;
+
+                         }
+
 
     .header-link-menu:hover {color: #404BBF;}
          .header-link-menu:focus {color: #404bbf}
@@ -144,7 +166,7 @@ align-items: center;
             min-width: 169px;
             height: 56px;
             border: none;
-            background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 }
 
                          .main-btn:hover,
