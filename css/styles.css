@@ -404,7 +404,7 @@ background-color: #404BBF;
 
          }
                  .footer-container-logo {
-                    
+                    margin-right: 120px;
                  }
 
                 .footer-logo {
@@ -432,6 +432,9 @@ background-color: #404BBF;
         .footer-logo-end {
             display: inline-block;
             margin-bottom: 16px;}
+            .footer-container-icons {
+                
+            }
             .media-title {
                 font-family: var(--font-family);
                     font-weight: 500;
@@ -440,6 +443,7 @@ background-color: #404BBF;
                     letter-spacing: 0.02em;
                     color: var(--white);
             }
+
             .footer-icon-item {
                 display: flex;
                 justify-content: center;
