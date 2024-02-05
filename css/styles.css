@@ -78,10 +78,11 @@ align-items: center;
                 display: block;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                  }
-                 .link {
+.link {
 position: relative;
 color: #404bbf;
-                 }
+  }
+
 .link::after {
   content: "";
   width: 100%;
@@ -89,9 +90,9 @@ color: #404bbf;
   left: 0;
  bottom: -1px;
   height: 4px;
-      background-color: #404bbf;
+  background-color: #404bbf;
   border-radius: 2px;
-                         }
+    }
 
 
     .header-link-menu:hover {color: #404BBF;}
@@ -127,13 +128,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
     .main-titl {
      max-width: 1440px;
-        max-width: 100%;
-        background-color: #2E2F42;
+    background-color: #2E2F42;
     padding: 188px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
          .title {
             color: #FFF;
@@ -360,7 +360,7 @@ justify-content: center;
      column-gap: 24px;
      row-gap: 48px;
                 }
-                                        .portfolio-main:hover {   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
+    .portfolio-main:hover {   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 
      .container-portfolio {
@@ -377,7 +377,7 @@ justify-content: center;
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 
-    .portfolio-main-list:hover .portfolio-covers-wrap {    transform: translateY(0);
+    .portfolio-main-list:hover .portfolio-covers-wrap {transform: translateY(0);
                                 }
   .portfolio-covers-wrap {
  overflow: hidden;
@@ -385,26 +385,22 @@ justify-content: center;
 background-color: #4D5AE5;
                 }
 
-  .portfolio-main-pic
   
         
 .portfolio-covers-text {
-    
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
         padding: 40px 32px;
-           
-            position: absolute;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                transform: translateY(100%);
-                transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-           
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 
@@ -433,17 +429,18 @@ background-color: #4D5AE5;
                 
  .portfolio-main-titel {
   color: #2E2F42;
-                                     font-size: 20px;
-                                     font-weight: 500;
-                                     line-height: 1.2;
-                                     letter-spacing: 0.02em;
-                                    margin-bottom: 8px;
-                                 }
+   font-size: 20px;
+  font-weight: 500;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+ margin-bottom: 8px;
+  }
  .portfolio-main-text {
-                                     color: #434455;
-                                     font-size: 16px;
-                                     line-height: 1.5;                                   letter-spacing: 0.02em;
-                                 }
+ color: #434455;
+ font-size: 16px;
+ line-height: 1.5       
+  letter-spacing: 0.02em;
+  }
     
 
          
@@ -451,20 +448,19 @@ background-color: #4D5AE5;
                          /* ----------footer---------- */
 
          .footer-container {
-            color: var(--IRIS, #4D5AE5);
-                font-family: "Raleway",
-                    sans-serif;
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 1.17;
-                letter-spacing: 0.03em;
-                text-transform: uppercase;
-                display: inline-block;
-                    margin-bottom: 18px;
+        color: var(--IRIS, #4D5AE5);
+         font-family: "Raleway",sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 18px;
 
          }
-                 .footer-container-logo {
-                    margin-right: 120px;
+.footer-container-logo {
+        margin-right: 120px;
                  }
 
                 .footer-logo {
