@@ -127,9 +127,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
         
     .main-titl {
-     max-width: 1440px;
+    max-width: 1440px;
     background-color: #2E2F42;
     padding: 188px 0;
+        margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -201,13 +202,13 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
          .main-strategy-container {
             width: 264px;
             height: 112px;
-            border: #0c0d1c;
-            border-radius: 4px;
+ border-radius: 4px;
             background-color: #f4f4fd;
             display: flex;
             justify-content: center;
             align-items: center;
             margin-bottom: 8px;
+                border: 1px solid #778899;
          }
     
          .main-strategy-list {
@@ -297,6 +298,7 @@ width: calc((100% - 72px) / 4);
                         font-weight: 400;
                         line-height: 1.5;
                         letter-spacing: 0.02em;
+                        margin-bottom: 8px;
                  }
         .list-end {
             margin-right: 0;
@@ -360,8 +362,6 @@ justify-content: center;
      column-gap: 24px;
      row-gap: 48px;
                 }
-    .portfolio-main:hover {
-     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 
      .container-portfolio {
@@ -436,7 +436,7 @@ overflow: hidden;
  .portfolio-main-text {
  color: #434455;
  font-size: 16px;
- line-height: 1.5       
+ line-height: 1.5;       
   letter-spacing: 0.02em;
   }
     
@@ -444,19 +444,6 @@ overflow: hidden;
          
     
                          /* ----------footer---------- */
-
-         .footer-container {
-        color: var(--IRIS, #4D5AE5);
-         font-family: "Raleway",sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        display: inline-block;
-        margin-bottom: 18px;
-
-         }
 .footer-container-logo {
         margin-right: 120px;
                  }
@@ -497,7 +484,6 @@ overflow: hidden;
                     letter-spacing: 0.02em;
                    color: #FFFFFF;
                     margin-bottom: 16px;
-
             }
 
             .footer-icon-item {
